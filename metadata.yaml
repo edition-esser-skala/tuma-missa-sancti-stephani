@@ -1,0 +1,16 @@
+composer: Tůma, František Ignác Antonín
+title: Missa Sancti Stephani
+id: (A-Wn Mus.Hs.18992)
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 trb, 2 vl, b, org
+sources:
+  1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.18992
+    type: manuscript copy
+    date: unknown
+    rism:
+    url: http://data.onb.ac.at/rec/AC14297554
+github: tuma-missa-sancti-stephani
+imslp:
+notes:
