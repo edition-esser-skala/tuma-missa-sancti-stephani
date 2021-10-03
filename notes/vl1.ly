@@ -70,3 +70,80 @@ KyrieViolinoI = {
     d r r2\fermata \bar "|." %76 finis
   }
 }
+
+GloriaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 4/4 \tempoGloria
+    <a f' d'>4\f r r2
+    r4 f''\p r f,
+    r f\f e8. e16 e4
+    e'8( f) e( d) cis-! a-! r4
+    cis8 d4 cis8 d a g f16 e %5
+    f8 d r4 r8 a' g f16 e
+    f8 d r4 r d'8 d
+    es2. d4~
+    d c d8 a d16 c b a
+    b4 h c8 g fis4 %10
+    g r r2
+    R1*17 \noBreak %28
+    R1\fermata \bar "||"
+    \time 3/2 \tempoQuiTollis \newSpacingSection
+      r2 f'\fE f \noBreak %30
+    r f f
+    r f f~
+    f e d
+    cis1.
+    r2 c c %35
+    c1.
+    \once \tieDashed h~
+    h~
+    h2 h1\trill
+    a2 e\p e %40
+    e( d) d
+    d( c) c
+    h h1\trill
+    a2 r r
+    R1.*3 %47
+    r2 c'1\fE
+    c1.~
+    c %50
+    c1 b2
+    a a1
+    g2 r r
+    R1.*3 %56
+    r2 r b
+    b1 b2
+    a1 a2
+    g1. %60
+    r2 c c
+    c1.~
+    c2 b b
+    b1 as2
+    as1 as2 %65
+    g1 f2~
+    f4 g \appoggiatura as g1\trillE
+    f2 c'\p c
+    c( b) b
+    b( as) as \noBreak %70
+    g \appoggiatura as4 g1\trill \bar "||"
+    \time 4/4 \tempoQuoniam \newSpacingSection
+      f4 r r2 \noBreak
+    R1*7 %79
+    r8 c''\fE b16( a) b-! c-! a8 a g16( f) g-! a-! %80
+    f f, g a b c d e f2~
+    f8 b16 d, \appoggiatura f8 e4\trill f4 \tempoCumSancto d
+    cis d d2
+    cis4\fermata \tempoInGloria r r2
+    R1 %85
+    r4 d c! h8 a
+    h4 cis d c8 h
+    c4 h8 a h2
+    a4 r r d
+    c h8 a h4 cis %90
+    d2 cis
+    r4 e2 d4
+    cis8 a d2 cis8 h
+    cis2 d4 r\fermata \bar "|." %94 finis
+  }
+}

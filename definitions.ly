@@ -687,6 +687,11 @@ tocLabelLong = #(define-music-function
 
 
 tempoKyrie = \tempoMarkup "Allegro"
+tempoGloria = \tempoMarkup "Allegro moderato"
+  tempoQuiTollis = \tempoMarkup "Larghetto"
+  tempoQuoniam = \tempoMarkup "Allegro"
+  tempoCumSancto = \tempoMarkup "Moderato"
+  tempoInGloria = \tempoMarkup "Vivace"
 
 
 \include "notes/trb1.ly"

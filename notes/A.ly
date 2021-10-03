@@ -139,3 +139,142 @@ KyrieAltoLyrics = \lyricmode {
   lei -- %75
   son. %76 finis
 }
+
+GloriaAlto = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 4/4 \autoBeamOff \tempoGloria
+    r4 \mvTr d'8\f^\tuttiE d d,4 d
+    d\p r d r
+    d4.\f d8 cis8. cis16 cis4
+    r2 a'4. a8
+    e f e4 d r %5
+    r8 \mvTr f\pE^\solo e d16([ cis)] d4 r
+    r8 b'16 b a8 g16 fis g4 r
+    r \mvTr g8\fE^\tutti g a2(
+    g4.) g8 fis4 r
+    r8 d g16([ f)] es([ d)] c4 d %10
+    d r r2
+    R1*12 %23
+    r4 \mvTr b'8\pE^\soloE c16 b a([ g)] a8 a a
+    g16([ fis)] g8 r4 r g8 f?16 es
+    as2~ as8[ g16 f] g[ as f g]
+    es4 g8[ as16 g] fis8 g4 fis8
+    g4 r r2 \noBreak
+    R1\fermata \bar "||"
+    \time 3/2 \tempoQuiTollis \newSpacingSection
+      \mvTr a1.\fE^\tuttiE \noBreak %30
+    a
+    a1 a2
+    gis1 gis2
+    a1 a2
+    R1. %35
+    r2 fis fis
+    fis1 e2
+    d2. d4 e2
+    fis e2.( d4)
+    c2 r r %40
+    R1.*7 %47
+    r2 a'2. a4
+    a1.~
+    a2 a g %50
+    fis2. fis4 g2
+    g fis1
+    g2 r r
+    R1.*3 %56
+    r2 r g
+    g g g
+    f2. f4 f2
+    f( e4 d) e2 %60
+    R1.
+    r2 e e
+    f1.
+    g1 f2~
+    f1 f2 %65
+    e1 f2~
+    f e1
+    f2 r r
+    R1.*3 \bar "||" %71
+    \time 4/4 \tempoQuoniam \newSpacingSection
+      R1*10 %81
+    r2 r4 \tempoCumSancto \mvTr a\f^\tuttiE
+    a a a g
+    a\fermata \tempoInGloria a f e8 d
+    e4 fis g f8([ e)] %85
+    f2 g4 a~
+    a g fis gis
+    a8[( e] a2 gis4)
+    a r r2
+    r4 a g f8 e %90
+    f2 e4 a
+    g f8 e f4. f8
+    e4 f e2~
+    e d4 r\fermata \bar "|." %94 finis
+  }
+}
+
+GloriaAltoLyrics = \lyricmode {
+  Et in ter -- ra
+  pax, pax,
+  pax ho -- mi -- ni -- bus
+  bo -- nae
+  vo -- lun -- ta -- tis. %5
+  Lau -- da -- mus te,
+  be -- ne -- di -- ci -- mus te,
+  ad -- o -- ra --
+  mus te,
+  glo -- ri -- fi -- ca -- mus %10
+  te.
+
+  Do -- mi -- ne De -- us, A -- gnus %24
+  De -- i, Fi -- li -- us %25
+  Pa -- _
+  _ _ _ _ _
+  tris.
+
+  Qui %30
+  tol --
+  lis pec --
+  ca -- ta
+  mun -- di:
+  %35
+  Mi -- se --
+  re -- re,
+  mi -- se -- re --
+  re no --
+  bis. %40
+
+  Su -- sci -- %48
+  pe __
+  de -- pre -- %50
+  ca -- ti -- o --
+  nem no --
+  stram.
+
+  Qui %57
+  se -- des ad
+  dex -- te -- ram
+  Pa -- tris: %60
+
+  Mi -- se --
+  re --
+  re, mi --
+  se -- %65
+  re -- re __
+  no --
+  bis.
+
+  Cum %82
+  San -- cto Spi -- ri --
+  tu in glo -- ri -- a
+  De -- i Pa -- tris, %85
+  a -- men, De --
+  i Pa -- tris,
+  a --
+  men,
+  in glo -- ri -- a %90
+  De -- i, in
+  glo -- ri -- a De -- i
+  Pa -- tris, a --
+  men. %94 finis
+}
