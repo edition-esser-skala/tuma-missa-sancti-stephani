@@ -402,3 +402,48 @@ CredoAltoLyrics = \lyricmode {
   men, a --
   men.
 }
+
+SanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 3/2 \autoBeamOff \tempoSanctus
+    \mvTr a'4\pE^\solo( b a g f e)
+    f( g f e) d( cis)
+    \mvTr d2\fE^\tutti d r
+    R1.*2 %5
+    c2 c r
+    R1.*2
+    d1 d2
+    e2. e4 e2 %10
+    f( d) e \noBreak
+    f( e) d \bar "||"
+    \time 4/4 \tempoPleni \newSpacingSection
+      e2 r
+    r8 a, cis e a4 a8 e
+    a, a a'4 a2~ %15
+    a2. d,8 d
+    g g g g16 f e2
+    d4 d g8 g a fis
+    g2 fis\fermata \bar "|." %19 finis
+  }
+}
+
+SanctusAltoLyrics = \lyricmode {
+  San --
+  _ ctus,
+  san -- ctus,
+
+  san -- ctus, %6
+
+  san -- ctus %9
+  Do -- mi -- nus %10
+  De -- us
+  Sa -- ba --
+  oth.
+  Ple -- ni sunt coe -- li et %15
+  ter -- ra, sunt coe --
+  li et
+  ter -- ra glo -- ri -- a tu --
+  a. O -- san -- na in ex --
+  cel -- sis. %19 finis
+}

@@ -182,3 +182,27 @@ CredoTromboneI = {
     fis4 r r2\fermata \bar "|." %62 finis
   }
 }
+
+SanctusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key d \dorian \time 3/2 \tempoSanctus
+    R1.*2
+    d2\f d r
+    R1.*2 %5
+    c2\f c r
+    R1.*2
+    d1\f d2
+    e2. e4 e2 %10
+    f( d e) \noBreak
+    f( e d) \bar "||"
+    \time 4/4 \tempoPleni \newSpacingSection
+      e2 r
+    r8 a, cis e a4 a8 e
+    a, a a'4 a2~ %15
+    a2. d,8 d
+    g g g g16 f e2
+    d4 d g8 g a fis
+    g2 fis\fermata \bar "|." %19 finis
+  }
+}

@@ -695,6 +695,8 @@ tempoGloria = \tempoMarkup "Allegro moderato"
 tempoCredo = \tempoMarkup "[Allegro]"
   tempoEtIncarnatus = \tempoMarkup "Larghetto"
   tempoEtResurrexit = \tempoMarkup "Allegro"
+tempoSanctus = \tempoMarkup "Larghetto"
+  tempoPleni = \tempoMarkup "Allegro"
 
 
 \include "notes/trb1.ly"

@@ -180,3 +180,26 @@ CredoTromboneII = {
     d4 r r2\fermata \bar "|."
   }
 }
+
+SanctusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key d \dorian \time 3/2 \tempoSanctus
+    R1.*2
+    f,2 f r
+    R1.*2 %5
+    a2\f a r
+    R1.*2
+    b1\f b2
+    a2. a4 a2 %10
+    a( f' e) \noBreak
+    d1 d2 \bar "||"
+    \time 4/4 \tempoPleni \newSpacingSection
+      cis2 r
+    R1*2 %15
+    r8 d, f a d4 d8 a
+    d, d b' b16 b b4( a)
+    a d d8 d d d
+    d2 d\fermata \bar "|." %19 finis
+  }
+}

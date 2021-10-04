@@ -507,3 +507,52 @@ CredoBassFigures = \figuremode {
   r2 <_->
   <_+>1 %62 finis
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key d \dorian \time 3/2 \tempoSanctus
+    \mvTr d1\pE-\solo cis2
+    d1 a2
+    \mvTr d1\fE-\tutti r2
+    \mvTr f1\pE-\solo c2
+    f,1 c'2 %5
+    \mvTr f\fE-\tutti f, r
+    \mvTr fis'1\pE-\solo r2
+    g1 d2
+    \mvTr g1\fE-\tutti g,2
+    cis1 r2 %10
+    d1 c2 \noBreak
+    b1. \bar "||"
+    \time 4/4 \tempoPleni \newSpacingSection
+      a8 a-! cis-! e-! a4-! a8-! e-! \noBreak
+    a,2 g
+    \once \tieDashed f1~ %15
+    f2 fis
+    g a
+    d4 fis g fis8 d
+    g2 d\fermata \bar "|." %19 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r1 \bo <[6 4]>4 \bc <[\t 3]>
+  r1 \bo <[6 4]>4 \bc <[5 _+]>
+  r1.
+  r1 \bo <[6 4]>4 \bc <[5 3]>
+  r1 \bo <[6 4]>4 \bc <[5 3]> %5
+  r1.
+  <6>
+  <_->1 \bo <[6- 4]>4 \bc <[5 _+]>
+  <[_-]>1.
+  <6 5> %10
+  r1 <6>2
+  <7>2 \bo <6 [4]> \bc <\t [3]>
+  <[_+]>1
+  <_+>2 <[4+] 2>
+  <6>1 %15
+  r2 <6>
+  <_-> \bo <[9-] 4>4 \bc <[8] _+>
+  r4 <[6]> <_-> \bo <[6]>8 \bc <[_+]>
+  <_->2 <_+> %19 finis
+}

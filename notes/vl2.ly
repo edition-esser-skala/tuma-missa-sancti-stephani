@@ -212,3 +212,27 @@ CredoViolinoII = {
     fis4 r r2\fermata \bar "|." %62 finis
   }
 }
+
+SanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 3/2 \tempoSanctus
+    R1.*2
+    d'2\f d r
+    R1.*2 %5
+    f2\f f, r
+    R1.*2
+    g1\f g2
+    g2. g4 g2 %10
+    f( d e) \noBreak
+    f( e d) \bar "||"
+    \time 4/4 \tempoPleni \newSpacingSection
+      e2 r \noBreak
+    r8 a, cis e a4 a8 e
+    a,4 a' a2~ %15
+    a2. d,4
+    g4. f8 e2
+    d4 d g a8 fis
+    g2 fis\fermata \bar "|." %19 finis
+  }
+}
