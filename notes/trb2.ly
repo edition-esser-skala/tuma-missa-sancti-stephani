@@ -131,3 +131,52 @@ GloriaTromboneII = {
     a2 a4 r\fermata \bar "|." %94 finis
   }
 }
+
+CredoTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key d \dorian \time 4/4 \tempoCredo
+    f4\f f8 f e d e4
+    f8 f e d c d16 d c4
+    c c8 c c4 c8 c
+    b8. b16 b8 d4 d8 d d
+    cis4. cis8 d r r4 %5
+    R1*12 %17
+    r4 d\fE c c8 c
+    c8. c16 c8 c f4 f
+    d d8 d e4. r8 %20
+    r2 r4 d
+    d8 c b a g4. g8
+    a h cis d d4 cis
+    d r r2 \noBreak
+    R1\fermata \bar "||" %25
+    \tempoEtIncarnatus d4 es8 d es4 c \noBreak
+    d d c8. c16 c4
+    d d g,8g a b
+    c8. c16 c8 c a b d8. d16
+    d4 r d8. d16 c8 g %30
+    a8. b16 c8 c f, f c'4 \noBreak
+    d e!8-\critnote e d4. d8 \bar "||"
+    \tempoEtResurrexit d d c c d d c c16 c \noBreak
+    d8 d c4 d8 b?16 c c4
+    c r r b %35
+    b8. b16 b8 c b8. b16 b8 b
+    a8. a16 a4 b2~\p
+    b4. c8 d2~
+    d4 c h8 h b4
+    b a8 g a4 a8\f a %40
+    g4 b8 b a a a4
+    a r r2
+    R1*8 %50
+    r2 r8 d4\fE c8~
+    c f h, e16 d cis4. d8
+    d4 cis8. h!16 a2~
+    a4 gis a8 e'4 f8~
+    f d4 e c d8~ %55
+    d b4 a a8 d4
+    cis r r2
+    R1*3 %60
+    r2 d\f
+    d4 r r2\fermata \bar "|."
+  }
+}

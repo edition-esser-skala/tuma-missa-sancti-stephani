@@ -278,3 +278,127 @@ GloriaAltoLyrics = \lyricmode {
   Pa -- tris, a --
   men. %94 finis
 }
+
+CredoAlto = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 4/4 \autoBeamOff \tempoCredo
+    \mvTr a'4\fE^\tutti a8 a g g a4
+    a8 a a g a g16 g g4
+    a a8 g fis4 fis8 fis
+    g8. d16 d4 g8 g g g
+    e4. e8 d r r4 %5
+    r2 \mvTr a'8\pE^\solo g16([ f)] g8 a
+    f e16 d b'8 a a([ gis)] a4
+    fis fis8 fis g4 g8 g
+    f4. f8 f4. f8
+    e8. e16 e4 r f8 f %10
+    f4( e8.) f16 f4 r
+    R1*6 %17
+    r4 \mvTr g\fE^\tutti g g8 g
+    g8. f16 f8 a a4 a
+    a gis8 gis a4 a8 r %20
+    r4 a a8([ g f e)]
+    d4 d d2
+    e4. f8 e2
+    d8 r r4 r2 \noBreak
+    R1\fermata \bar "||" %25
+    \tempoEtIncarnatus f4 g8 f g4 es \noBreak
+    f f fis8. fis16 fis4
+    g g r2
+    r8 g g g a g fis8. fis16
+    g4 r r g8. g16 %30
+    f8 d es8. es16 d8 d e([ fis)] \noBreak
+    g4 g8 g g4. fis8 \bar "||"
+    \tempoEtResurrexit g8 g g f f f f f16 f \noBreak
+    f8 f f4 f8 g16 a e!4
+    f r r r8 f %35
+    g8. g16 g8 f f f f g
+    a8. a16 a4 \mvTr f2~\pE^\solo
+    f4 es f2
+    es d8 d d4
+    d c d \mvTr d8\f^\tutti d %40
+    d4 g8 g g f! e4
+    f \mvTr a8\pE^\solo b g f16 e a8 g
+    f e16 d e8 a f16([ g)] a8 a([ g)]
+    a4 r r2
+    R1 %45
+    r8 c, c c c([ d16 e)] f8 f
+    f8. e16 e8 g a g f e
+    d e16[( f)] d8. c16 c4 r
+    R1
+    r2 r8 \mvTr a'4\fE^\tutti f8~ %50
+    f[ b] e,[ a16 g] f8 d a'4~
+    a \once \tieDashed g~ g8[ f16 e] f4~
+    f e d e
+    f e e r8 a~
+    a g r g4 f8 r f~ %55
+    f e r e4 f8 f([ e16 d)]
+    e4 f( e) g(
+    f) a( g) b(
+    cis,) d d( cis)
+    d8 g4\p fis a g8~ %60
+    g[ a] b([ a)] g2\f
+    fis4 r r2\fermata \bar "|." %62 finis
+  }
+}
+
+CredoAltoLyrics = \lyricmode {
+  Pa -- trem o -- mni -- po -- ten --
+  tem, fa -- cto -- rem coe -- li et ter --
+  rae, vi -- si -- bi -- li -- um
+  o -- mni -- um et in -- vi -- si --
+  bi -- li -- um. %5
+  Et in u -- num
+  Do -- mi -- num Je -- sum Chri -- stum,
+  Fi -- li -- um, Fi -- li -- um
+  De -- i u -- ni --
+  ge -- ni -- tum, u -- ni -- %10
+  ge -- ni -- tum.
+
+  Qui pro -- pter nos %18
+  ho -- mi -- nes et pro -- pter
+  no -- stram sa -- lu -- tem %20
+  de -- scen --
+  dit de coe --
+  lis, de coe --
+  lis.
+  %25
+  Et in -- car -- na -- tus
+  est de Spi -- ri -- tu
+  San -- cto,
+  et ho -- mo, ho -- mo fa -- ctus
+  est. Cru -- ci -- %30
+  fi -- xus e -- ti -- am pro no --
+  bis, et se -- pul -- tus
+  est. Et re -- sur -- re -- xit ter -- ti -- a
+  di -- e se -- cun -- dum Scri -- ptu --
+  ras, et %35
+  i -- te -- rum ven -- tu -- rus est cum
+  glo -- ri -- a iu --
+  di -- ca --
+  re vi -- vos et
+  mor -- tu -- os, cu -- ius %40
+  re -- gni non e -- rit fi --
+  nis. Et in Spi -- ri -- tum San -- ctum,
+  Do -- mi -- num et vi -- vi -- fi -- can --
+  tem,
+  %45
+  et u -- nam san -- ctam ca --
+  tho -- li -- cam et a -- po -- sto -- li --
+  cam Ec -- cle -- si -- am,
+
+  a -- _ %50
+  _ _ men, a --
+  _ _
+  men, a -- _
+  _ _ men, a --
+  men, a -- men, a -- %55
+  men, a -- men, a --
+  men, a -- _
+  _ _
+  men, a --
+  men, a -- _ _ _
+  men, a --
+  men.
+}

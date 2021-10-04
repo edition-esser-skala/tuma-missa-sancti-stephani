@@ -260,3 +260,123 @@ GloriaTenoreLyrics = \lyricmode {
   a --
   men. %94 finis
 }
+
+CredoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \dorian \time 4/4 \autoBeamOff \tempoCredo
+    \mvTr f4\fE^\tuttiE f8 f e d e4
+    f8 f e d c d16 d c4
+    c c8 c c4 c8 c
+    b8. b16 b8 d4 d8 d d
+    cis4. cis8 d r r4 %5
+    R1*7 %12
+    \mvTr c8\pE^\soloE b16([ a)] b8 c a f r4
+    r d'8 d d c c b
+    b4 a d8 c b c16 d %15
+    es4. es8 a,4. a8
+    g4 r r2
+    r4 \mvTr d'\fE^\tutti c c8 c
+    c8. c16 c8 c f4 f
+    d d8 d e4 e8 r %20
+    r2 r4 d
+    d8([ c b a)] g4. g8
+    a([ h)] cis d d4( cis)
+    d8 r r4 r2 \noBreak
+    R1\fermata \bar "||" %25
+    \tempoEtIncarnatus d4 es8 d es4 c \noBreak
+    d d c8. c16 c4
+    d d g,8g a b
+    c8. c16 c8 c a b d8. d16
+    d4 r d8. d16 c8 g %30
+    a8. b16 c8 c f, f c'4 \noBreak
+    d e!8 e d4. d8 \bar "||"
+    \tempoEtResurrexit d d c c d d c c16 c \noBreak
+    d8 d c4 d8 b16 c c4
+    c r r b %35
+    b8. b16 b8 c b8. b16 b8 b
+    a8. a16 a4 \mvTr b2~\pE^\solo
+    b4. c8 d2~
+    d4 c h8 h b4
+    b a8([ g)] fis \mvTr a4\f^\tutti a8 %40
+    g4 b8 b a a a4
+    a r r2
+    r r4 \mvTr d8\pE^\solo d
+    c! b16 a b8. b16 a4 r
+    a8. a16 a8 a b4 g8 f %45
+    f4( e) f r
+    R1*2
+    r8 d' b4 a8 c f e
+    d4. d8 cis4 r %50
+    r2 r8 \mvTr d4\fE^\tutti c8~
+    c[ f] h,[ e16 d] cis4. d8
+    d4 cis8.[ h!16] a2~
+    a4 gis a8 e'4 f8~
+    f d4 e c d8~ %55
+    d b4 a a8 d4
+    cis r8 d4 cis e8~
+    e d4 f e g8~
+    g[ f] e([ d)] e2
+    d1\p %60
+    d2 d\f
+    d4 r r2\fermata \bar "|."
+  }
+}
+
+CredoTenoreLyrics = \lyricmode {
+  Pa -- trem o -- mni -- po -- ten --
+  tem, fa -- cto -- rem coe -- li et ter --
+  rae, vi -- si -- bi -- li -- um
+  o -- mni -- um et in -- vi -- si --
+  bi -- li -- um. %5
+
+  Ge -- ni -- tum non fa -- ctum, %13
+  con -- sub -- stan -- ti -- a -- lem
+  Pa -- tri, per quem o -- mni -- a %15
+  fa -- cta, fa -- cta
+  sunt.
+  Qui pro -- pter nos
+  ho -- mi -- nes et pro -- pter
+  no -- stram sa -- lu -- tem %20
+  de --
+  scen -- dit de
+  coe -- lis, de coe --
+  lis.
+  %25
+  Et in -- car -- na -- tus
+  est de Spi -- ri -- tu
+  San -- cto ex Ma -- ri -- a
+  Vir -- gi -- ne, et ho -- mo fa -- ctus
+  est. Cru -- ci -- fi -- xus %30
+  e -- ti -- am pro no -- bis, pas --
+  sus et se -- pul -- tus
+  est. Et re -- sur -- re -- xit ter -- ti -- a
+  di -- e se -- cun -- dum Scri -- ptu --
+  ras, et %35
+  i -- te -- rum ven -- tu -- rus est cum
+  glo -- ri -- a iu --
+  di -- ca --
+  re vi -- vos et
+  mor -- tu -- os, cu -- ius %40
+  re -- gni non e -- rit fi --
+  nis.
+  Qui cum
+  Pa -- tre et Fi -- li -- o
+  qui lo -- cu -- tus est per Pro -- %45
+  phe -- tas,
+
+  et vi -- tam ven -- tu -- ri %49
+  sae -- cu -- li, %50
+  a -- _
+  _ _ men,
+  a -- _ _
+  _ men, a -- _
+  _ _ _ _ %55
+  _ _ men, a --
+  men, a -- _ _
+  _ _ _ _
+  men, a --
+  _ %60
+  men, a --
+  men. %62 finis
+}

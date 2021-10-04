@@ -147,3 +147,63 @@ GloriaViolinoI = {
     cis2 d4 r\fermata \bar "|." %94 finis
   }
 }
+
+CredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 4/4 \tempoCredo
+    d'4.\f d8 d4. cis8
+    d4 e f8 f,4 e8
+    f4 a a2
+    b2. b4
+    a r r8 b'16( d,) \appoggiatura d cis8 e16 g, %5
+    f8 d'16 f, e8 cis' d,4 r
+    R1*4 %10
+    r2 r8 c''16( es,) d8 b'16( d,)
+    c8 a'16( c,) b8 g'16( b,) a8 f' g, e'
+    f,4 r r2
+    R1*3 %16
+    r8 es'16 g, fis8 a16 c, b8 g'16 b, a8 fis'
+    g,4 b' b2
+    a4. c8 d4 d
+    d2 cis4 e %20
+    e8 d cis h a2~
+    a4 b b2
+    a4 a a2
+    a8 b'16 d, cis8 e16 g, f8 d'16 f, e8 cis' \noBreak
+    d,4 r r2\fermata \bar "||" %25
+    \tempoEtIncarnatus b'2 b4 a \noBreak
+    b b c4. c8
+    b4 b b8 b c d
+    es8. es16 es8 es d b a8. a16-\critnote
+    g4 r r2 %30
+    r d'8. d16 c8 a \noBreak
+    b2 a \bar "||"
+    \tempoEtResurrexit g8 b c d16 es d8 b c d16 es \noBreak
+    d8 b r4 r g8 g
+    a b c d16 e f8 f f4~ %35
+    f es d b
+    c2 b8(-.\p b-. b-. b-.)
+    b(-. b-. g-. g-.) g(-. g-. g-. g-.)
+    g(-. g-. g-. g-.) g(-. g-. g-. g-.)
+    g(-. g-. g-. g-.) fis[ fis] a\f a %40
+    b c d d e! d d cis
+    d4 r r r8 e\p
+    f f, r e' f f, r4
+    r r8 g' a a, r4
+    r r8 f' d d, r4 %45
+    r r8 g' a a, r h!
+    c c, r e' f f, r4
+    r r8 d' e e, r c'
+    b b, r g' a a, r4
+    R1*3 %52
+    r2 r8 d'4\fE c8
+    c f h, e16 d c8 a r d~
+    d b4 c a b8~ %55
+    b g4 a a8 a[ g]
+    a4 r r2
+    R1*3 %60
+    r2 b\f
+    a4 r r2\fermata \bar "|." %62 finis
+  }
+}
