@@ -206,3 +206,27 @@ SanctusTromboneI = {
     g2 fis\fermata \bar "|." %19 finis
   }
 }
+
+BenedictusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key b \major \time 4/4 \tempoBenedictus
+    R1*14 \noBreak %14
+    R1\fermata \bar "||" %15
+    \key d \dorian \tempoOsanna R1*4
+    r4 d\fE e2 %20
+    f4 r8 f g f e a
+    f d a'4. g16 f e8 d
+    c a a'2 g!4~
+    g8 f16 e f4 g2
+    f4 r d2 %25
+    e f4. a8~
+    a gis16 fis e8 d c a a'4~
+    a gis a e
+    d2 e4 r8 a
+    b a g c a f r f %30
+    g f e a f d d e16 fis
+    g2. f4
+    e2 d\fermata \bar "|." %33 finis
+  }
+}

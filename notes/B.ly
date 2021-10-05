@@ -400,3 +400,52 @@ SanctusBassoLyrics = \lyricmode {
   a. O -- san -- na in ex --
   cel -- sis. %19 finis
 }
+
+BenedictusBasso = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \autoBeamOff \tempoBenedictus
+    R1*14 \noBreak %14
+    R1\fermata \bar "||" %15
+    \key d \dorian \tempoOsanna
+      \mvTr d2\fE^\tuttiE e \noBreak
+    f4 r8 f g f e a
+    f d a'4 a8([ g16 f)] e8 d
+    c a a' a a4( gis)
+    a f8 d g4( a) %20
+    d, f e2
+    d4 r r2
+    R1
+    d2 e
+    f4. a8 a([ g16 f)] e8 d %25
+    c a r4 r2
+    r a
+    h c4 r8 c
+    d c h e c a f'4~
+    f e2 d4~ %30
+    d cis d8([ c b a)]
+    g2 a4 a
+    a2 d,\fermata \bar "|." %33 finis
+  }
+}
+
+BenedictusBassoLyrics = \lyricmode {
+  O -- san -- %16
+  na, o -- san -- na in ex --
+  cel -- sis, o -- san -- na, o --
+  san -- na in ex -- cel --
+  sis, in ex -- cel -- %20
+  sis, o -- san --
+  na,
+
+  o -- san --
+  na, o -- san -- na, o -- %25
+  san -- na,
+  o --
+  san -- na, o --
+  san -- na in ex -- cel -- sis, o --
+  san -- na, __ %30
+  o -- san --
+  na in ex --
+  cel -- sis. %33 finis
+}

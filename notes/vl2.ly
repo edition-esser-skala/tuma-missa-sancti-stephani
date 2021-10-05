@@ -236,3 +236,40 @@ SanctusViolinoII = {
     g2 fis\fermata \bar "|." %19 finis
   }
 }
+
+BenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoBenedictus
+    r8 f'\f a,16( c) f,-! es'-! \appoggiatura es d8 f\p a,16( c) f,-! es'-!
+    \appoggiatura es d8 f b16( d,) e-! b'-! \appoggiatura b a8 f\f b16( d,) e-! b'-!
+    \appoggiatura b a8 c,\p f16( a,) h-! f'-! \appoggiatura f es8 g-! c16( es,) fis-! c'-!
+    b8-! d,-! es16( g) c,-! es-! d( g) b,-! d-! c( g') a,-! c-!
+    b( g') g,-! a-! a4\trill g8 d' h16( d) g,-! f'!-! %5
+    \appoggiatura f es8 g, f16( as) g-! f-! es! c-! c'8-! a16( c) f,-! es'-!
+    \appoggiatura es d8 f, es16( g) f-! es-! d-! b-! b'8 g16( b) es,-! c'-!
+    a( c) f,-! d'-! b( d) g,-! es'-! c( es) a,-! f'-! \appoggiatura es d8 b'
+    a16( c) f,-! es-! d8 b a16( c) f,-! es'-! d8 f
+    g,16( es') d-! c-! \appoggiatura d8 c4\trill b8 b a16( c) f,-! es-! %10
+    d8 b' a16( c) f,-! es-! d8 f' g,16( b) es-! g-!
+    a,( f) b-! c-! \appoggiatura d8 c4\trill b8 f' a,16( c) f,-! es'-!
+    d8 f a,16( c) f,-! es'-! d( b') c,-! g'-! \appoggiatura b,8 a4\trill
+    b8 b\p a16( c) f,-! es-! d8-! b'-! a16( c) f,-! es-! \noBreak
+    d8 r d d d4 r\fermata \bar "||" %15 finis
+    \key d \dorian \tempoOsanna R1*4
+    r4 d\fE e2 %20
+    f4 r8 f g f e a
+    f d a'4. g16 f e8 d
+    c a a'2 g!4~
+    g8 f16 e f4 g2
+    f4 r d2 %25
+    e f4. a8~
+    a gis16 fis e8 d c a a'4~
+    a gis a e
+    d2 e4 r8 a
+    b a g c a f r f %30
+    g f e a f d d e16 fis
+    g2. f4
+    e2 d\fermata \bar "|." %33 finis
+  }
+}

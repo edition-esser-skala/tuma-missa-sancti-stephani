@@ -556,3 +556,79 @@ SanctusBassFigures = \figuremode {
   r4 <[6]> <_-> \bo <[6]>8 \bc <[_+]>
   <_->2 <_+> %19 finis
 }
+
+BenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \tempoBenedictus
+    \mvTr b8\fE-\solo d f a b4 a\pE
+    b8 a g4 f8 a\fE g c
+    f, es!\pE d4 c8 b a4
+    g8 b c a b g a fis
+    g b c d g,4 g'8 h, %5
+    c4 d8 g c, d16 es f8 a,
+    b4 c8 f b, d es4
+    f g a b
+    f8 a b d,16 es f8 a, b d
+    es4 f8 f, b d16 es f8 a, %10
+    b d16 es f8 a, b d es4~
+    es8 d16 es f8 f, b d f a
+    b d f, a b es, f f,
+    b d16\p es f8 a, b d16 es f8 a, \noBreak
+    b r16 b' f( b) d,-! f-! b,4 r\fermata \bar "||" %15
+    \key d \dorian \tempoOsanna \mvTr d2\fE-\tuttiE e \noBreak
+    f4 r8 f g f e a
+    f d a'4. g16 f e8 d
+    c a a'2 gis4
+    a f8 d g4 a %20
+    d, f e2
+    d4 \clef "treble_8" c'! d e
+    a, f d e
+    \clef bass d2 e
+    f4. a8 a g16 f e8 d %25
+    c a \clef "treble_8" r c d4 f
+    e2 \clef bass a,
+    h c4 r8 c
+    d c h e c a f'4~
+    f e2 d4~ %30
+    d cis d8 c b a
+    g2 a
+    a d,\fermata \bar "|." %33 finis
+  }
+}
+
+BenedictusBassFigures = \figuremode {
+  r2. <[6]>4
+  r8 q <5> <6!> r4 <7>8 <[7] _!>
+  r <[6]> <5> <6!> r4 <5>8 <6\\>
+  r4 <9>8 <[5]> <9 [6]> <[5]> <9 [7]> <[6 5]>
+  \bo <[9]> \bc <[6]> <6 5> <_+> r4 \bo <[_! \l]>8 \bc <[6 5]> %5
+  <9>8 <8> <7 [5-]> <_!> r4 \bo <[_! \l]>8 \bc <[6 5]>
+  <9> <8> \bo <[7]> \bc q r4 <[5]>8 <6>
+  <5> <6> <5> <6> <5> <6>4.
+  r1
+  r %10
+  r
+  <4 2>8 <6> <4> <3> r2
+  r2 r8 <[6]>4.
+  r1
+  r %15
+  <1>4 <8> <7> <6>
+  <6>2 <[_-]>4 <6\\>8 <\t>
+  \bo <[6]>4 \bc <[_!]> <2>2
+  <6> <2>4 <6>
+  r <6> <6 5 [_-]> <_+> %20
+  r <[6]> <7> <6\\>
+  r4 <6> <6 5> <_+>
+  r2 <6 5>4 <_!>
+  <5 4> <\t 3> <7> <6\\>
+  \bo <[6]> \bc <[5!]> <4 2>2 %25
+  <6>4. \bo <[6]> \bc q4
+  <5 4> <\t _+>2.
+  <7>4 <6\\> <6>2
+  <[6 5]>4 <6\\>8 <\t> \bo <[6]>4 <5>8 \bc <[6]>
+  <4- 2>4 <6> <2> <6-> %30
+  <[6- 4] 2> <6> <_!>8 <4+> <6> <6\\>
+  <_->2 <7 _+>4 <[6! 4]>
+  <5 4> <\t _+>2. %33 finis
+}

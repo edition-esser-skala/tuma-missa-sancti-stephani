@@ -426,3 +426,48 @@ SanctusTenoreLyrics = \lyricmode {
   a. O -- san -- na in ex --
   cel -- sis. %19 finis
 }
+
+BenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key b \major \time 4/4 \autoBeamOff \tempoBenedictus
+    R1*14 \noBreak %14
+    R1\fermata \bar "||" %15
+    \key d \dorian \tempoOsanna R1*2
+    \mvTr a2\fE^\tuttiE h
+    c4 r8 c d c h e
+    c a d4 d8([ c16 b)] a8 g %20
+    f d d' d d4( cis)
+    d c8 c d4( e)
+    a, f d( e)
+    d r r2
+    a' h %25
+    c4. c,8 d4 f8 f
+    e2 e4 e'8 e
+    d2 e4 c8 c
+    h2 c4. d8
+    b4 c2 b4 %30
+    g a2 b8 c
+    d4 e8[ d] cis4 d~
+    d cis d2\fermata \bar "|." %33 finis
+  }
+}
+
+BenedictusTenoreLyrics = \lyricmode {
+  O -- san -- %18
+  na, o -- san -- na in ex --
+  cel -- sis, o -- san -- na, o -- %20
+  san -- na in ex -- cel --
+  sis, in ex -- cel --
+  sis, o -- san --
+  na,
+  o -- san -- %25
+  na, o -- san -- na, o --
+  san -- na in ex --
+  cel -- sis, in ex --
+  cel -- sis, o --
+  san -- na, o -- %30
+  san -- na in ex --
+  cel -- _ _ _
+  _ sis. %33 finis
+}
