@@ -230,3 +230,30 @@ BenedictusTromboneI = {
     e2 d\fermata \bar "|." %33 finis
   }
 }
+
+AgnusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key d \dorian \time 4/4 \tempoAgnus
+    R1*7
+    f8\f f f f r f f f
+    f4 e8 f e e e4
+    f e f e8 d \noBreak %10
+    e1\fermata \bar "||"
+    \tempoDona R1*20 %31
+    r8 d f g a g16 a e8 a
+    f2 e
+    f1
+    e4. d16 c d4 r %35
+    a'2 gis
+    a8 e e4 e2~
+    e4 f g2
+    f e
+    f4 r d8 e16 f g8 f16 g %40
+    e8. d16 c8 d16 e f2~
+    f e8 r r4
+    R1*5 %47
+    d1\f
+    d\fermata \bar "|." %49 FINIS
+  }
+}

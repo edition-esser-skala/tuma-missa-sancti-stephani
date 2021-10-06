@@ -531,9 +531,91 @@ BenedictusSopranoLyrics = \lyricmode {
   sis. %33 finis
 }
 
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.
+
+AgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 4/4 \autoBeamOff \tempoAgnus
+    R1*6 %6
+    r2 r4 \mvTr c'8\fE^\tutti f
+    d c r f d16([ c)] d8 r f
+    d c16 c b8 a g g a4
+    a a a( g) \noBreak %10
+    a1\fermata \bar "||"
+    \tempoDona d2 cis \noBreak
+    d4. c8 b([ a)] g([ f)]
+    e2 d8 a'[ h cis]
+    d[ c] h2 a4~ %15
+    a gis a r
+    R1*2
+    r8 a[( h cis] d[ cis16 d] a8) d
+    b g r b( c[ b16 c] g8) c %20
+    a f r4 r2
+    R1
+    r2 r8 \mvTr c'([\pE^\solo d e]
+    f[ e16 f]) d4 r8 d([ e f]
+    g[ f16 g)] e4 r8 g,([ a b] %25
+    c[ b16 c]) a4 r b~
+    b8[ a16 g] a8[ b16 c] d8[ c16 b] c8 f
+    g,2 f4 r
+    R1*4 %32
+    \mvTr d'2(\fE^\tutti cis)
+    d4 c2( h4)
+    c a2( gis4) %35
+    a r r2
+    r8 a[( c d] e[ d16 e] h8[ e]
+    c) a r d( b[ a16 b] g8[ c]
+    a) f r b( g[ f16 g] e8[ a]
+    f) d d'[ c!] b[ a16 b] g4 %40
+    c8[ b] a[ g16 a] f4. g16[ a]
+    b2 a~\p
+    a r8 cis[( d e]
+    f[ e16 f] d8) f e4 d\f
+    d( cis) d2~\pE %45
+    d r8 fis,[ g a]
+    b[ a16 b] g8[ b] a[ fis] a4
+    b1\f
+    a\fermata \bar "|." %49 FINIS
+  }
+}
+
+AgnusSopranoLyrics = \lyricmode {
+  A -- gnus %7
+  De -- i, qui tol -- lis, qui
+  tol -- lis pec -- ca -- ta mun -- di, pec --
+  ca -- ta mun -- %10
+  di:
+  Do -- na,
+  do -- na no -- bis
+  pa -- cem, pa --
+  _ _ _ %15
+  _ cem,
+
+  pa -- cem, %19
+  pa -- cem, pa -- cem, %20
+  pa -- cem,
+  pa --
+  cem, pa --
+  cem, pa --
+  cem, pa -- %25
+  _ _ _ cem,
+  pa -- cem.
+
+  Do -- %33
+  na no --
+  bis pa -- %35
+  cem,
+  pa --
+  cem, pa --
+  cem, pa --
+  cem, pa -- _ _ %40
+  _ _ _ _
+  _ cem, __
+  do --
+  na no -- bis
+  pa -- cem, __ %45
+  pa --
+  _ _ _ cem,
+  pa --
+  cem.
+}

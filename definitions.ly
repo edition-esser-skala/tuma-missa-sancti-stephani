@@ -699,6 +699,8 @@ tempoSanctus = \tempoMarkup "Larghetto"
   tempoPleni = \tempoMarkup "Allegro"
 tempoBenedictus = \tempoMarkup "Andante"
   tempoOsanna = \tempoMarkup "Allegro"
+tempoAgnus = \tempoMarkup "[Andante]"
+  tempoDona = \tempoMarkup "Allegro"
 
 
 \include "notes/trb1.ly"

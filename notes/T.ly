@@ -471,3 +471,95 @@ BenedictusTenoreLyrics = \lyricmode {
   cel -- _ _ _
   _ sis. %33 finis
 }
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \dorian \time 4/4 \autoBeamOff \tempoAgnus
+    r4 \mvTr c8\pE^\soloE f d c r f
+    d c16 d b8 a a g c b
+    b a d c h c16([ d)] d4
+    c r r2
+    R1*3 %7
+    \mvTr b8\fE^\tuttiE a b a r d c a16 a
+    d8 c16 a b8 c c c e4
+    d e d2 \noBreak %10
+    cis1\fermata \bar "||"
+    \tempoDona R1*2
+    r8 a h([ cis)] d([ cis)] d([ e)]
+    f[ e16 f] d8[ f] e[ d16 e] c8[ e] %15
+    d[ c16 d] h8 d c a r4
+    R1*4 %20
+    f'2 e
+    f4. es8 d([ c)] b([ a)]
+    g2 f4 r
+    r8 \mvTr a([\pE^\solo b c] d[ c16 d]) b4
+    r8 h[( c d] e[ d16 e]) e,4 %25
+    r8 e([ f g] a[ g16 a] f8) b
+    c4. c8 b4 a8([ f)]
+    f4( e) f r
+    R1*3 %31
+    \mvTr d'2\fE^\tutti cis
+    d8 a a4 a r
+    a4. c!8 d4. d8
+    c2 h %35
+    r8 a[ c d] e[ d16 e] h8[ e]
+    c2 h
+    c4 d2 c4~
+    c b2 a4
+    a r g4. g8 %40
+    g4 a a( b8.[ c16]
+    d2) cis8 a[\p h cis]
+    d[ cis16 d] h8[ d] cis a[ h cis]
+    d[ cis16 d] h8[ d] cis4 f(\f
+    e2) d8 fis,[\p g a] %45
+    b[ a16 b] g8[ b] a8 d,[ e fis]
+    g[ fis16 g] e8[ g] fis[ d] fis4
+    g1\f
+    fis\fermata \bar "|." %49 FINIS
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta mun -- di: Mi -- se --
+  re -- re, mi -- se -- re -- re no --
+  bis.
+
+  A -- gnus De -- i, qui tol -- lis pec --  %7
+  ca -- ta, pec -- ca -- ta mun -- di, pec --
+  ca -- ta mun -- %10
+  di:
+
+  Do -- na no -- bis %14
+  pa -- _ _ _ %15
+  _ _ cem, pa -- cem,
+
+  do -- na, %21
+  do -- na no -- bis
+  pa -- cem,
+  pa -- cem,
+  pa -- cem, %25
+  pa -- cem,
+  do -- na no -- bis
+  pa -- cem.
+
+  Do -- na %32
+  no -- bis pa -- cem,
+  do -- na no -- bis
+  pa -- cem, %35
+  pa -- _ _
+  _ cem,
+  pa -- _ _
+  _ _
+  cem, do -- na %40
+  no -- bis pa --
+  cem, pa --
+  _ _ cem, pa --
+  _ _ cem, pa --
+  cem, pa -- %45
+  _ _ cem, pa --
+  _ _ _ cem,
+  pa --
+  cem. %49 FINIS
+}

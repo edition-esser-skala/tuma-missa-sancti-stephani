@@ -488,3 +488,86 @@ BenedictusAltoLyrics = \lyricmode {
   cel -- _
   _ sis. %33 finis
 }
+
+AgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 4/4 \autoBeamOff \tempoAgnus
+    R1*3
+    r4 \mvTr g'8\pE^\soloE c a g r c
+    a g16 a f([ a)] g([ f)] e8 c f es %5
+    es d g f f e c'8. b16
+    a8 g16([ f)] g4 f r
+    \mvTr f8\fE^\tutti f f f r f f f
+    f4 e8 f e e e4
+    f e f( e8[ d)] \noBreak %10
+    e1\fermata \bar "||"
+    \tempoDona R1*4 %15
+    r2 a
+    gis a4. g8
+    f([ e)] d([ c)] h2
+    a4 r r2
+    R1 %20
+    a'2 g
+    a4. g8 f([ es)] d([ c)]
+    b2 a4 r
+    R1*8 %31
+    r8 \mvTr d([\fE^\tutti f g] a[ g16 a] e8) a
+    f2 e
+    f1
+    e4. d16[ c] d4 r %35
+    a'2 gis
+    a8([ e)] e4 e2
+    e4( f) g2
+    f e
+    f4 r d8[ e16 f] g8[ f16 g] %40
+    e8.[ d16] c8[ d16 e] f2~
+    f e8 cis[\p d e]
+    f[ e16 f] d8[ f] e cis r4
+    << \context Voice = "Alto" { a1 } \\ { s2. s4^\f } >>
+    a2~ a8 d[\p e fis] %45
+    g[ fis16 g] e8[ g] fis4 d
+    \once \tieDashed d1~
+    d\f
+    d\fermata \bar "|." %49 FINIS
+  }
+}
+
+AgnusAltoLyrics = \lyricmode {
+  A -- gnus De -- i, qui %4
+  tol -- lis pec -- ca -- ta mun -- di: Mi -- se -- %5
+  re -- re, mi -- se -- re -- re, mi -- se --
+  re -- re no -- bis.
+  A -- gnus De -- i, qui tol -- lis
+  pec -- ca -- ta mun -- di, pec --
+  ca -- ta mun -- %10
+  di:
+
+  Do -- %16
+  na, do -- na
+  no -- bis pa --
+  cem,
+  %20
+  do -- na,
+  do -- na no -- bis
+  pa -- cem.
+
+  Do -- na %32
+  no -- bis
+  pa --
+  _ _ cem, %35
+  do -- na
+  no -- bis, do --
+  na __ no --
+  bis pa --
+  cem, pa -- _ %40
+  _ _ _
+  cem, pa --
+  _ _ _ cem,
+  pa --
+  cem, __ pa -- %45
+  _ _ _ cem,
+  pa --
+
+  cem. %49 FINIS
+}

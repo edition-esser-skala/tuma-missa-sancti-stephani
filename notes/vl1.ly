@@ -272,3 +272,43 @@ BenedictusViolinoI = {
     a1\fermata \bar "|." %33 finis
   }
 }
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 4/4 \tempoAgnus
+    r2 r8 a''16(\p b) c8-! f,-!
+    r f e f \appoggiatura f e4 r
+    r8 f16( g) a8-! d,-! r c'4 h8
+    c4 r r8 e,16( f) g8-! c,-!
+    r c'4 h8 c4 r8 f,~ %5
+    f b, r g'~ g c, r c'~
+    c16 c, f4 e8\trill f4 c8\f f
+    d c r f d16 c d8 r f
+    d c b a g-\critnote g a4~
+    a a a g \noBreak %10
+    a1\fermata \bar "||"
+    \tempoDona R1*16 %27
+    r2 r8 c'-!\fE d,-! g16( b)
+    c,8-! f16( a) b,8-! e16( g) a,8 c f4~
+    f8 b16 d, \appoggiatura f8 e4\trill f16 e f g a4~ %30
+    a8 g16 f g4\trill a r
+    R1
+    d,2 cis
+    d4 c2 h4
+    c a2 gis4 %35
+    a r r2
+    r8 a c d e d16 e h8 e
+    c a r d b a16 b g8 c
+    a f r b g f16 g e8 a
+    f d d' c! b a16 b g4 %40
+    c8 b a g16 a f4. g16 a
+    b2 a4 r
+    R1
+    r2 r4 d~\f
+    d cis d r %45
+    R1*2
+    b1\f
+    a\fermata \bar "|." %49 FINIS
+  }
+}

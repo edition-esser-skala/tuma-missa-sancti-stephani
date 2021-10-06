@@ -449,3 +449,79 @@ BenedictusBassoLyrics = \lyricmode {
   na in ex --
   cel -- sis. %33 finis
 }
+
+AgnusBasso = {
+  \relative c {
+    \clef bass
+    \key d \dorian \time 4/4 \autoBeamOff \tempoAgnus
+    R1*7 %7
+    \mvTr b8\fE^\tuttiE f' b f r b a f16 f
+    b8 a16 a g8 f c c cis4
+    d c b2 \noBreak %10
+    a1\fermata \bar "||"
+    \tempoDona R1*6 %17
+    r2 r8 e'([ fis gis]
+    a[ gis16 a] e8) a f d r fis(
+    g[ fis16 g] d8) g e([ c)] e4 %20
+    f f, r2
+    R1*2
+    r8 \mvTr f'([\pE^\solo g a] b[ a16 b]) g4
+    r8 g([ a h] c[ b16 c)] c,4 %25
+    r8 c[ d e] f[ e16 f] d8[ g16 f]
+    e4 f8[ g16 a] b8[ a16 g] f8[ a,16 b]
+    c2 f,4 r
+    R1*4 %32
+    r8 \mvTr d'[\fE^\tutti f g] a[ g16 a] e8[ a]
+    f d r a' f[ e16 f] d8[ g]
+    e c r f d[ c16 d] h8[ e] %35
+    c a r4 r2
+    a'2( gis)
+    a4 f2( e4)
+    f d2( cis4)
+    d r g8[ f] e[ d16 e] %40
+    c4 f8[ e] d[ c16 d] b8[ a]
+    g2 a\p
+    \once \tieDashed a1~
+    a2. d4\f
+    a'( a,) d2~\p %45
+    d1~
+    d
+    g,\f
+    d'\fermata \bar "|." %49 FINIS
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  A -- gnus De -- i, qui tol -- lis pec --  %7
+  ca -- ta, pec -- ca -- ta mun -- di, pec --
+  ca -- ta mun -- %10
+  di:
+
+  Pa -- %18
+  cem, pa -- cem, pa --
+  cem, pa -- cem, %20
+  pa -- cem,
+
+  pa -- cem, %24
+  pa -- cem, %25
+  pa -- _ _
+  _ _ _ _
+  _ cem.
+
+  Pa -- _ _ %33
+  _ cem, pa -- _ _
+  _ cem, pa -- _ _ %35
+  _ cem,
+  do --
+  na no --
+  bis pa --
+  cem, pa -- _ %40
+  _ _ _ _
+  _ cem,
+  pa --
+  cem,
+  pa -- cem, __ %45
+
+  pa -- %48
+  cem. %49 FINIS
+}
