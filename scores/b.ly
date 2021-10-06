@@ -52,7 +52,7 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Organo"
+          \set Staff.instrumentName = "Bassi"
           \KyrieOrgano
         }
       >>
