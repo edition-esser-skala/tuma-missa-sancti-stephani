@@ -38,7 +38,7 @@
 \layout {
   \context {
     \Staff
-    instrumentName = "b"
+    instrumentName = "trb 1"
   }
 }
 
@@ -48,12 +48,12 @@
       number = "1"
       title = "K Y R I E"
     }
-    \paper { indent = 2\cm }
+    \paper { indent = 2.5\cm }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Organo"
-          \KyrieOrgano
+          \set Staff.instrumentName = "Trombone I"
+          \KyrieTromboneI
         }
       >>
     }
@@ -65,7 +65,7 @@
     }
     \score {
       <<
-        \new Staff { \GloriaOrgano }
+        \new Staff { \GloriaTromboneI }
       >>
     }
   }
@@ -76,7 +76,7 @@
     }
     \score {
       <<
-        \new Staff { \CredoOrgano }
+        \new Staff { \CredoTromboneI }
       >>
     }
   }
@@ -88,7 +88,7 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \SanctusOrgano }
+        \new Staff { \SanctusTromboneI }
       >>
     }
   }
@@ -97,9 +97,10 @@
       number = "5"
       title = "B E N E D I C T U S"
     }
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \BenedictusOrgano }
+        \new Staff { \BenedictusTromboneI }
       >>
     }
   }
@@ -108,9 +109,10 @@
       number = "6"
       title = "A G N U S   D E I"
     }
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \AgnusOrgano }
+        \new Staff { \AgnusTromboneI }
       >>
     }
   }

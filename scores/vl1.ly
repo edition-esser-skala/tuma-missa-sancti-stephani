@@ -46,14 +46,14 @@
   \bookpart {
     \header {
       number = "1"
-      title = "F I R S T"
+      title = "K Y R I E"
     }
     \paper { indent = 2\cm }
     \score {
       <<
         \new Staff {
           \set Staff.instrumentName = "Violino I"
-          \xxxViolinoI
+          \KyrieViolinoI
         }
       >>
     }
@@ -61,11 +61,56 @@
   \bookpart {
     \header {
       number = "2"
-      title = "S E C O N D"
+      title = "G L O R I A"
     }
     \score {
       <<
-        \new Staff { \xxxViolinoI }
+        \new Staff { \GloriaViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      number = "3"
+      title = "C R E D O"
+    }
+    \score {
+      <<
+        \new Staff { \CredoViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      number = "4"
+      title = "S A N C T U S"
+    }
+    \paper { systems-per-page = #4 }
+    \score {
+      <<
+        \new Staff { \SanctusViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      number = "5"
+      title = "B E N E D I C T U S"
+    }
+    \score {
+      <<
+        \new Staff { \BenedictusViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      number = "6"
+      title = "A G N U S   D E I"
+    }
+    \score {
+      <<
+        \new Staff { \AgnusViolinoI }
       >>
     }
   }
