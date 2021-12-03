@@ -1,11 +1,15 @@
-composer: Tůma, František Ignác Antonín
+composer:
+  last: Tůma
+  first: František Ignác Antonín
 title: Missa Sancti Stephani
 genre: mass
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 trb, 2 vl, b, org
+license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Wn
     shelfmark: Mus.Hs.18992
     url: http://data.onb.ac.at/rec/AC14297554
+    license: public domain
     principal: true
 imslp: Missa_Sancti_Stephani_(Tůma,_František_Ignác_Antonín)
